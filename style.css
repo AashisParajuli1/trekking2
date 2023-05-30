@@ -1,0 +1,279 @@
+section {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #f88c21 !important;
+}
+
+.text-primary {
+  color: #f88c21 !important;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+header.active {
+  background-color: #ffffff;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
+header.active .text-light {
+  color: #000000 !important;
+}
+
+header.active nav .social-media-list i {
+  color: #000000;
+}
+
+header nav .social-media-list i {
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+/**banner-start**/
+
+.banner .banner-image {
+  height: 670px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner .carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/**banner-end**/
+
+/**introduction-start**/
+.introduction .intro-icon {
+  font-size: 30px;
+  color: #f88c21;
+}
+
+/**introduction-end**/
+
+/**popular-start**/
+.popular .popular-image {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/**popular-end**/
+
+/**quets-start**/
+
+.quets .quets-image img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.quets .quets-line {
+  margin-top: 60px;
+}
+/**quets-end**/
+
+/**best-start**/
+.best {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.best h1 {
+  color: #ffffff;
+}
+
+.best .best-image img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.best .best-discription {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.best .card img {
+  height: 100px;
+}
+
+.best .card {
+  margin-bottom: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+}
+
+.best .card .card-body {
+  padding: 0;
+}
+
+.best .icon {
+  font-size: 50px;
+  color: #f88c21;
+  margin-bottom: 20px;
+}
+
+/**best-end**/
+
+/**gallery-start**/
+.gallery img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery .gallery-image {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/**gallery-end**/
+
+/**video-start**/
+.video iframe {
+  height: 450px;
+  width: 100%;
+}
+
+.video .video-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.video .video-paragraph {
+  text-align: center;
+}
+.video .video-p {
+  text-align: center;
+}
+/**video-end**/
+
+/**vlog-start**/
+.vlog .vlog-head {
+  text-align: center;
+}
+
+.vlog .vlog-p {
+  text-align: center;
+}
+
+.vlog .vlog-image img {
+  width: 100%;
+  height: 280px;
+
+  object-fit: cover;
+}
+
+/**vlog-end**/
+
+/**footer-start**/
+footer {
+  background-color: #121212;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+footer .footer-p {
+  color: #ffffff;
+}
+
+footer label {
+  color: orange;
+}
+footer.location-icon {
+  color: #ffffff;
+}
+
+footer i {
+  color: #f88c21;
+}
+footer .footer-info li {
+  color: #ffffff;
+  list-style: none;
+}
+
+footer .footer-info li i {
+  margin-right: 10px;
+}
+footer .footer-info {
+  margin: 0;
+  padding: 0;
+}
+footer h5 {
+  color: #f88c21;
+}
+
+footer li {
+  color: #ffffff;
+}
+footer p {
+  color: #ffffff;
+}
+
+footer .horizental-line {
+  height: 0.5px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+footer .copyright-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+}
+/**footer-end**/
+
+/**knowledge-card-start**/
+.k-c .card img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.k-c .card .middle-image {
+  margin-top: 5px;
+}
+
+/**knowledge-card-end**/
+
+/**search-package-start**/
+
+.package h2 {
+  text-align: center;
+}
+
+.package .search-image img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/**search-package-end**/
